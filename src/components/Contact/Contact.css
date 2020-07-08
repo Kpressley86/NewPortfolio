@@ -1,0 +1,46 @@
+.Contact {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media all and (max-width: 699px) and (min-width: 300px) {
+    .Contact {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+.social {
+    max-width: 60px;
+    margin-left: 15px;
+}
+.card {
+    margin-top: 40px;
+}
+.btn-contact {
+    color:rgb(208, 208, 208);
+    background-color: rgb(11, 116, 148);
+}
+
+.neon {
+    font-size: 50px;
+    color: rgb(11, 116, 148);
+    text-shadow: 1px 1px rgb(208, 208, 208);
+}
+
+.conectBox {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card-header {
+    background-color:  rgb(143, 143, 143);
+
+    /* background-image: url("../images/prism.png"); */
+}
+
+.card-body {
+    background-color:  rgb(143, 143, 143);
+
+    /* background-image: url("../images/prism.png"); */
+}
