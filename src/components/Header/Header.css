@@ -1,16 +1,12 @@
-.App-header {
-    
-    background-color: rgb(143, 143, 143);
-    padding-top: 20px;
-    padding-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
 .name {
-    font-size:80px;
-    color: rgb(11, 116, 148);
-    text-shadow: 2px 2px rgb(208, 208, 208);
+  font-size:80px;
+  color: rgb(11, 116, 148);
+  text-shadow: 2px 2px rgb(208, 208, 208);
+ }
+
+ .LogoClear {
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  max-width: 300px;
  }
