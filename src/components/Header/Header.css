@@ -1,6 +1,12 @@
-.name {
-  color: rgb(11, 116, 148);
-  text-shadow: 1px px rgb(208, 208, 208);
+a:active {
+  color: rgb(0, 0, 0);
+ }
+ a:link {
+   color:black !important;
+ }
+
+ .linkBorder:hover {
+   background-color: rgb(4, 140, 173);
  }
 
  .LogoClear {
@@ -24,3 +30,29 @@
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
+
+/* -------ANIMATION------- */
+
+  /* top border */
+  .top-leftStart:before{
+    border-top: 1px solid rgb(0, 0, 0);
+    transition-timing-function: linear;
+  }
+
+  /* bottom border */
+  .top-leftStart:after{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition-timing-function: ease-in;
+  }
+
+  /* left border */
+  .top-leftStart .ui-border-element:before{
+    border-left: 1px solid rgb(0, 0, 0);
+    transition-timing-function: ease-out;
+  }
+
+  /* right border */
+  .top-leftStart .ui-border-element:after{
+     border-right: 1px solid rgb(0, 0, 0);
+     transition-timing-function: ease-in-out;
+  }

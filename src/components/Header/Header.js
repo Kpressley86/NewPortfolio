@@ -23,17 +23,41 @@ const Header = () => {
 
                 <Nav className="mr-auto">
 
-                    <Nav.Link className="name" href="#home"> About</Nav.Link>
-                    <Nav.Link className="name" href="#portfolio">Portfolio</Nav.Link>
-                    <Nav.Link className="name" href="#contact">Contact</Nav.Link>
-             
-                    <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
-                        src={Link} className="social" alt="LinkedIn" /></a>
+                    <div className="linkBorder">
+                        <a href="#home" target="_self" className="nav-link ui-box forwardBorderTrain">
+                            <span className="name ui-border-element"> About</span>
+                        </a>
+                    </div>
+
+                    <div className="linkBorder">
+                        <a href="#portfolio" target="_self" className="nav-link ui-box forwardBorderTrain">
+                            <span className="name ui-border-element"> Portfolio</span>
+                        </a>
+                    </div>
+
+                    <div className="linkBorder">
+                        <a href="#contact" target="_self" className="nav-link ui-box forwardBorderTrain">
+                            <span className="name ui-border-element"> Contact</span>
+                        </a>
+                    </div>
+
+                    <div className="linkBorder">
+                        <a href="#resume" target="_self" className="nav-link ui-box forwardBorderTrain">
+                            <span className="name ui-border-element"> Resume</span>
+                        </a>
+                    </div>
+
+                    <div className="linkBorder">
+                        <a href="#login" target="_self" className="nav-link ui-box forwardBorderTrain">
+                            <span className="name ui-border-element"> Login</span>
+                        </a>
+                    </div>
+
                 </Nav>
 
                 <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-primary">LOGIN</Button>
+                    <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
+                        src={Link} className="social" alt="LinkedIn" /></a>
                 </Form>
 
             </Navbar>
