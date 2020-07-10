@@ -1,0 +1,10 @@
+.carouselBox {
+    position: absolute; 
+    left: 0; 
+    width: 100%;
+    top: 100px; 
+    bottom: 60px; 
+    overflow: auto;
+
+}
+

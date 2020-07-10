@@ -4,27 +4,28 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
-    background-color:  rgb(143, 143, 143);
-    /* background-image: url("../images/prism.png"); */
 }
 
-@media all and (max-width: 699px) and (min-width: 300px) {
+ /* @media all and (max-width: 699px) and (min-width: 300px) {
     .Portfolio {
     margin-left: 20px;
     margin-right: 20px;
       padding-left: 10px;
       padding-right: 10px;
     }
-}
+}  */
 
 .portimgborder {
     background-color: black;
     padding: 5px !important;
+}
+
+.portimgborder2 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px !important;
 }
 
 .port {

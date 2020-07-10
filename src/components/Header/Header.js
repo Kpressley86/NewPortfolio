@@ -12,7 +12,8 @@ import LogoFade from '../images/LogoFade.png';
 
 const Header = () => {
     return (
-       
+        <div className="header">
+
 
             <Navbar bg="light" variant="light">
 
@@ -23,7 +24,7 @@ const Header = () => {
                 <Nav className="mr-auto">
                     <Nav.Link href="#home">About</Nav.Link>
                     <Nav.Link href="#features">Portfolio</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="#pricing">Contact</Nav.Link>
                 </Nav>
 
                 <div>
@@ -41,7 +42,8 @@ const Header = () => {
 
             </Navbar>
 
-       
+
+        </div>
     );
 }
 
