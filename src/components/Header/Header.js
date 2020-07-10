@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import GitHub from '../images/git1.gif';
+// import GitHub from '../images/git1.gif';
 import Link from '../images/linkedin.png';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
@@ -22,18 +22,24 @@ const Header = () => {
                 </Navbar.Brand>
 
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">About</Nav.Link>
-                    <Nav.Link href="#features">Portfolio</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
+
+                        
+                   
+                    <Nav.Link className="top-leftStart ui-border-element" href="#home">
+                        
+                            About
+                        
+                    </Nav.Link>
+                    <Nav.Link className="top-leftStart" href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link className="top-leftStart" href="#contact">Contact</Nav.Link>
                 </Nav>
 
                 <div>
-                    <a id="GHub" href="https://github.com/Kpressley86?tab=repositories"><img
-                        src={GitHub} className="social" alt="Github" /></a>
+                    {/* <a id="GHub" href="https://github.com/Kpressley86?tab=repositories"><img
+                        src={GitHub} className="social" alt="Github" /></a> */}
                     <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
                         src={Link} className="social" alt="LinkedIn" /></a>
                 </div>
-
 
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

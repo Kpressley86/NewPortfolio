@@ -7,6 +7,34 @@
  .LogoClear {
   height: auto;
   width: auto;
+  padding-top: 0!important;
+  margin-top: 0 !important;
   max-height: 150px;
   max-width: 300px;
  }
+
+
+ /* --------LogoAnimation---------- */
+
+ .top-leftStart:before{
+  border-top: 1px solid Tomato;
+  transition-timing-function: linear;
+}
+
+/* bottom border */
+.top-leftStart:after{
+  border-bottom: 1px solid DodgerBlue;
+  transition-timing-function: ease-in;
+}
+
+/* left border */
+.top-leftStart .ui-border-element:before{
+  border-left: 1px solid smokeWhite;
+  transition-timing-function: ease-out;
+}
+
+/* right border */
+.top-leftStart .ui-border-element:after{
+   border-right: 1px solid MediumSeaGreen;
+   transition-timing-function: ease-in-out;
+}

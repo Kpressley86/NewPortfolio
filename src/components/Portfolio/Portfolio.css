@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
  /* @media all and (max-width: 699px) and (min-width: 300px) {
@@ -35,15 +36,15 @@
 }
 
 .neon1 {
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 15%;
     color: rgb(11, 116, 148);
     text-shadow: 1px 1px rgb(208, 208, 208);
 }
 
-.row {
+/* .row {
     margin: 20px;
-}
+} */
 
 .item1 {
     margin-right: 20px;

@@ -3,12 +3,12 @@
     padding-right: 200px;
 }
 
-@media all and (max-width: 699px) and (min-width: 300px) {
+/* @media all and (max-width: 699px) and (min-width: 300px) {
     .Contact {
       padding-left: 10px;
       padding-right: 10px;
     }
-}
+} */
 
 .social {
     max-width: 60px;
