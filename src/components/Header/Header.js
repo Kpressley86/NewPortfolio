@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header">
 
 
-            <Navbar bg="light" variant="light">
+            <Navbar bg="white" variant="light">
 
                 <Navbar.Brand href="#home">
                     <img src={LogoFade} className="LogoClear" alt="LogoClear" />
@@ -23,23 +23,13 @@ const Header = () => {
 
                 <Nav className="mr-auto">
 
-                        
-                   
-                    <Nav.Link className="top-leftStart ui-border-element" href="#home">
-                        
-                            About
-                        
-                    </Nav.Link>
-                    <Nav.Link className="top-leftStart" href="#portfolio">Portfolio</Nav.Link>
-                    <Nav.Link className="top-leftStart" href="#contact">Contact</Nav.Link>
-                </Nav>
-
-                <div>
-                    {/* <a id="GHub" href="https://github.com/Kpressley86?tab=repositories"><img
-                        src={GitHub} className="social" alt="Github" /></a> */}
+                    <Nav.Link className="name" href="#home"> About</Nav.Link>
+                    <Nav.Link className="name" href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link className="name" href="#contact">Contact</Nav.Link>
+             
                     <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
                         src={Link} className="social" alt="LinkedIn" /></a>
-                </div>
+                </Nav>
 
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

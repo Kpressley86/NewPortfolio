@@ -9,11 +9,11 @@ const About = () => {
 
             {/* IMAGE HOLDER */}
 
-            <div class="container">
-                <div class="box">
-                    <div class="spin-container">
-                        <div class="shape">
-                            <div class="bd"></div>
+            <div className="container">
+                <div className="box">
+                    <div className="spin-container">
+                        <div className="shape">
+                            <div className="bd"></div>
                         </div>
                     </div>
                 </div>
