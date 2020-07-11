@@ -2,9 +2,9 @@ import React from 'react';
 import './Carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
 
+import Home from '../Home/Home';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Portfolio from '../Portfolio/Portfolio';
 // import Resume from '../Resume/Resume';
 
 
@@ -20,7 +20,7 @@ const Carouse = () => {
 
                 <Carousel.Item>
 
-                    <About />
+                    <Home />
 
                     {/* <img
                         className="d-block w-100"
@@ -34,7 +34,7 @@ const Carouse = () => {
 
                 <Carousel.Item>
 
-                    <Portfolio />
+                    <About />
 
                     {/* <img
                         className="d-block w-100"
