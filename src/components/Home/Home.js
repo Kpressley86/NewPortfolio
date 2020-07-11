@@ -3,9 +3,6 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div className="home">
-
-            {/* IMAGE HOLDER */}
 
             <div className="container">
                 <div className="box">
@@ -16,7 +13,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 

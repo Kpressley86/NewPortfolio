@@ -21,7 +21,7 @@ const Header = () => {
                 <Nav className="mr-auto">
 
                     <div className="linkBorder">
-                        <a href="#home" target="_self" className="nav-link ui-box forwardBorderTrain">
+                        <a href="#about" target="_self" className="nav-link ui-box forwardBorderTrain">
                             <span className="name ui-border-element"> About</span>
                         </a>
                     </div>
@@ -40,13 +40,13 @@ const Header = () => {
 
                     <div className="linkBorder">
                         <a href="#resume" target="_self" className="nav-link ui-box forwardBorderTrain">
-                            <span className="name ui-border-element"> Resume</span>
+                            <span className="name ui-border-element"> Resume ⇩</span>
                         </a>
                     </div>
 
                     <div className="linkBorder">
                         <a href="#login" target="_self" className="nav-link ui-box forwardBorderTrain">
-                            <span className="name ui-border-element"> Login</span>
+                            <span className="name ui-border-element"> ♛</span>
                         </a>
                     </div>
 
