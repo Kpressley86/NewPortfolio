@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header/Header';
 import Carouse from './components/Carousel/Carousel';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/TestFooter';
 
 function App() {
   return (
