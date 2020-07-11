@@ -2,18 +2,15 @@ import React from 'react';
 import './Header.css';
 // import GitHub from '../images/git1.gif';
 import Link from '../images/linkedin.png';
-import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
 import LogoFade from '../images/LogoFade.png';
 //import LogoClear from '../images/LogoClear.png';
 
 const Header = () => {
     return (
         <div className="header">
-
 
             <Navbar bg="white" variant="light">
 
@@ -29,11 +26,11 @@ const Header = () => {
                         </a>
                     </div>
 
-                    <div className="linkBorder">
+                    {/* <div className="linkBorder">
                         <a href="#portfolio" target="_self" className="nav-link ui-box forwardBorderTrain">
                             <span className="name ui-border-element"> Portfolio</span>
                         </a>
-                    </div>
+                    </div> */}
 
                     <div className="linkBorder">
                         <a href="#contact" target="_self" className="nav-link ui-box forwardBorderTrain">
