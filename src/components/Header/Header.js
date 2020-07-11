@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import LogoFade from '../images/LogoFade.png';
 //import LogoClear from '../images/LogoClear.png';
+import Resume from '../Files/Resume.docx';
 
 const Header = () => {
     return (
@@ -39,14 +40,8 @@ const Header = () => {
                     </div>
 
                     <div className="linkBorder">
-                        <a href="#resume" target="_self" className="nav-link ui-box forwardBorderTrain">
+                        <a href={Resume} download="Resume.docx" className="nav-link ui-box forwardBorderTrain">
                             <span className="name ui-border-element"> Resume ⇩</span>
-                        </a>
-                    </div>
-
-                    <div className="linkBorder">
-                        <a href="#login" target="_self" className="nav-link ui-box forwardBorderTrain">
-                            <span className="name ui-border-element"> ♛</span>
                         </a>
                     </div>
 
@@ -56,6 +51,12 @@ const Header = () => {
                     <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
                         src={Link} className="social" alt="LinkedIn" /></a>
                 </Form>
+
+                <div className="linkBorder">
+                    <a href="#login" target="_self" className="nav-link ui-box forwardBorderTrain">
+                        <span className="nameLog ui-border-element"> ♛</span>
+                    </a>
+                </div>
 
             </Navbar>
 

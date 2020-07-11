@@ -9,6 +9,10 @@ a:active {
    background-color: rgb(4, 140, 173);
  }
 
+ .nameLog {
+   color: white;
+ }
+
  .LogoClear {
   height: auto;
   width: auto;
