@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header/Header';
-import Carouse from './components/Carousel/Carousel';
 import Footer from './components/Footer/TestFooter';
 
 function App() {
@@ -10,10 +9,6 @@ function App() {
     <div className="App">
 
       <Header />
-
-        <Carouse />
-
-
       <Footer />
 
     </div>

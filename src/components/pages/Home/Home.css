@@ -59,7 +59,7 @@
     position: absolute;
     left: -21%;
     top: -21%;
-    background-image: url('../images/ResumePic.jpg');
+    background-image: url('../../images/ResumePic.jpg');
     background-size: 75%;
     background-position: center center;
     display: flex;
