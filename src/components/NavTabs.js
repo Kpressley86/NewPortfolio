@@ -20,7 +20,7 @@ const NavTabs = (props) => {
             </div>
             
             <div className="linkBorder nav-item">
-                <NavLink  exact to="/ThreeDModels" target="_self" className="nav-link ui-box forwardBorderTrain">
+                <NavLink  exact to="/3DModels" target="_self" className="nav-link ui-box forwardBorderTrain">
                     <span className="name ui-border-element"> 3D MODELS </span>
                 </NavLink>
             </div>

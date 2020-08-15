@@ -5,13 +5,12 @@ import './Header.css';
 
 import Link from '../images/linkedin.png';
 import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
 import LogoFade from '../images/LogoFade.png';
 import Resume from '../Files/Resume.docx';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
-// import ThreeDModels from ".components/pages/3DModels/3DModels";
+import ThreeDModels from "../pages/3DModels/3DModels";
 
 const Header = () => {
     return (
@@ -27,7 +26,7 @@ const Header = () => {
                     <div>
                         <NavTabs />
                         <Switch>
-                            {/* <Route path="/3D Models" component={ThreeDModels}></Route> */}
+                            <Route path="/3D Models" component={ThreeDModels}></Route>
                             <Route path="/about" component={About}></Route>
                             <Route path="/contact" component={Contact}></Route>
                             <Route exact path="/" component={Home}></Route>
@@ -41,10 +40,10 @@ const Header = () => {
                         </a>
                     </div>
 
-                <Form inline>
+                <div className="LinkedIn">
                     <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
                         src={Link} className="social" alt="LinkedIn" /></a>
-                </Form>
+                </div>
 
             </Navbar>
 

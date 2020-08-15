@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
-import ThreeDModels from "./pages/3DModels/3DModels";
 import Contact from "./pages/Contact/Contact";
+import ThreeDModels from "./pages/3DModels/3DModels";
 
 const Portfolio = () => {
     const [currentPage, setCurrentPage] = useState("Home");
@@ -23,7 +23,7 @@ const Portfolio = () => {
             return <Home />;
         } else if (currentPage === "About") {
             return <About />;
-        } else if (currentPage === "3D Models") {
+        } else if (currentPage === "3DModels") {
             return <ThreeDModels />;
         } else {
             return <Contact />;
