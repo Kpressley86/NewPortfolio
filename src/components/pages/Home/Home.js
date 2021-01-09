@@ -1,20 +1,20 @@
 import React from 'react';
 import './Home.css';
 
-const Home = () => {
+
+const Home = ({ boxData }) => {
     return (
 
-            <div className="container">
-                <div className="box">
-                    <div className="spin-container">
-                        <div className="shape">
-                            <div className="bd">
-                                
-                            </div>
-                        </div>
+        <div className="container">
+            <div className="box">
+                <div className="spin-container">
+                    <div className="shape">
+                        <div className="bd" />
                     </div>
                 </div>
             </div>
+        </div>
+
     );
 }
 

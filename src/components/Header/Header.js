@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavTabs from '../NavTabs';
 import './Header.css';
 
@@ -7,10 +6,7 @@ import Link from '../images/linkedin.png';
 import Navbar from 'react-bootstrap/Navbar';
 import LogoFade from '../images/LogoFade.png';
 import Resume from '../Files/Resume.docx';
-import Home from '../pages/Home/Home';
-import About from '../pages/About/About';
-import Contact from '../pages/Contact/Contact';
-import ThreeDModels from "../pages/3DModels/3DModels";
+
 
 const Header = () => {
     return (
@@ -21,18 +17,10 @@ const Header = () => {
                 <Navbar.Brand>
                     <img src={LogoFade} className="LogoClear" alt="LogoClear" />
                 </Navbar.Brand>
-
-                <Router>
+ 
                     <div>
                         <NavTabs />
-                        <Switch>
-                            <Route path="/3D Models" component={ThreeDModels}></Route>
-                            <Route path="/about" component={About}></Route>
-                            <Route path="/contact" component={Contact}></Route>
-                            <Route exact path="/" component={Home}></Route>
-                        </Switch>
                     </div>
-                </Router>
 
                     <div className="linkBorder">
                         <a href={Resume} download="Resume.docx" className="nav-link ui-box forwardBorderTrain">
