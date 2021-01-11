@@ -10,33 +10,30 @@ import Resume from '../Files/Resume.docx';
 
 const Header = () => {
     return (
-        <div className="header">
 
-            <Navbar bg="white" variant="light">
+        <Navbar bg="white" variant="light" className="header">
 
-                <Navbar.Brand>
-                    <img src={LogoFade} className="LogoClear" alt="LogoClear" />
-                </Navbar.Brand>
- 
-                    <div>
-                        <NavTabs />
-                    </div>
+            <Navbar.Brand>
+                <img src={LogoFade} className="LogoClear" alt="LogoClear" />
+            </Navbar.Brand>
 
-                    <div className="linkBorder">
-                        <a href={Resume} download="Resume.docx" className="nav-link ui-box forwardBorderTrain">
-                            <span className="name ui-border-element"> RESUME ⇩</span>
-                        </a>
-                    </div>
+            <div>
+                <NavTabs />
+            </div>
 
-                <div className="LinkedIn">
-                    <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
-                        src={Link} className="social" alt="LinkedIn" /></a>
-                </div>
+            <div className="linkBorder">
+                <a href={Resume} download="Resume.docx" className="nav-link ui-box forwardBorderTrain">
+                    <span className="name ui-border-element"> RESUME ⇩</span>
+                </a>
+            </div>
 
-            </Navbar>
+            <div className="LinkedIn">
+                <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
+                    src={Link} className="social" alt="LinkedIn" /></a>
+            </div>
 
+        </Navbar>
 
-        </div>
     );
 }
 

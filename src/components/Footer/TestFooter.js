@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import Bam from '../images/Bam.jpg';
 import Liri from '../images/liri.gif';
-// import RPG from '../images/RPG.gif';
 import Giphy from '../images/giphy.gif';
 import News from '../images/news.jpg';
 import GiJoe from '../images/gijoe.png';
@@ -48,18 +47,11 @@ export default props =>
                 </div>
             </div>
 
-            {/* <div className="portimgborder">
-          <div className="portimgborder2">
-            <a href="https://kpressley86.github.io/unit-4-game/">
-              <img src={RPG} className="portimg" alt="RPG" />
-            </a>
-          </div>
-        </div> */}
-
             <div className="portimgborder">
                 <a href="https://github.com/Kpressley86/bamazon">
                     <img src={Bam} className="portimg" alt="Bamazon" />
                 </a>
             </div>
+
         </BasicFilm>
     </div>

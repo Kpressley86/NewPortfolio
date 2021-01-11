@@ -7,6 +7,7 @@ a:active {
 
  .linkBorder:hover {
    background-color: rgb(4, 140, 173);
+   font-weight: 700;
  }
 
  .nameLog {
@@ -23,9 +24,16 @@ a:active {
  .header {
    padding-left: 0px !important;
    padding-top: 0px !important;
-   padding-top: 0px !important;
    height: 78px;
-   background-color: rgb(4, 140, 173);
+   position: "fixed";
+   display: "flex";
+   justify-content: "space-between";
+   align-items: "center";
+   width: "100%";
+   font-weight: "bold";
+   padding: "0px 20px";
+   box-sizing: "border-box";
+   border-bottom: 3px solid rgb(4, 140, 173);
  }
 
 .navbar {
