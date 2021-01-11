@@ -13,11 +13,15 @@ const Footer = () => {
     <div className="Footer">
       <BasicFilm height={120}>
 
+      <div className="Spacer" />
+
         <div className="portimgborder">
           <a href="https://obscure-wave-51950.herokuapp.com/">
             <img src={News} className="portimg" alt="NewsToMe" />
           </a>
         </div>
+
+        <div className="Spacer" />
 
         <div className="portimgborder">
           <div className="portimgborder2">
@@ -27,6 +31,8 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className="Spacer" />
+
         <div className="portimgborder">
           <div className="portimgborder2">
             <a href="http://secure-temple-86303.herokuapp.com/">
@@ -34,6 +40,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+        <div className="Spacer" />
 
         <div className="portimgborder">
           <div className="portimgborder2">
@@ -43,13 +51,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* <div className="portimgborder">
-          <div className="portimgborder2">
-            <a href="https://kpressley86.github.io/unit-4-game/">
-              <img src={RPG} className="portimg" alt="RPG" />
-            </a>
-          </div>
-        </div> */}
+        <div className="Spacer" />
 
         <div className="portimgborder">
           <a href="https://github.com/Kpressley86/bamazon">

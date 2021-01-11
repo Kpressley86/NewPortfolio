@@ -21,6 +21,31 @@ a:active {
   max-width: 300px;
  }
 
+  @media screen and (max-width: 2700px) and (min-width: 2150px) {
+   .Spacer {
+     padding-left: 450px !important;
+   }
+ }
+  @media screen and (max-width: 2700px) and (min-width: 2150px) {
+    .Spacer2 {
+      padding-right: 650px !important;
+    }
+  }
+  
+  @media screen and (max-width: 2149px) and (min-width: 1449px) {
+    .Spacer {
+      padding-left: 275px !important;
+    }
+  }
+
+  @media screen and (max-width: 2149px) and (min-width: 1449px) {
+    .Spacer2 {
+      padding-right: 350px !important;
+    }
+  }
+  
+  /* @media 825 */
+
  .header {
    padding-left: 0px !important;
    padding-top: 0px !important;

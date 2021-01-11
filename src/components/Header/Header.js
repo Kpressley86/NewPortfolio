@@ -17,6 +17,8 @@ const Header = () => {
                 <img src={LogoFade} className="LogoClear" alt="LogoClear" />
             </Navbar.Brand>
 
+            <div className="Spacer" />
+
             <div>
                 <NavTabs />
             </div>
@@ -26,6 +28,8 @@ const Header = () => {
                     <span className="name ui-border-element"> RESUME ⇩</span>
                 </a>
             </div>
+
+            <div className="Spacer2" />
 
             <div className="LinkedIn">
                 <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img

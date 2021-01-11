@@ -17,10 +17,19 @@ const myStyleSet = {
 export default props =>
     <div className="Footer">
         <BasicFilm styleSet={myStyleSet}>
+
+            <div className="portimgborder">
+                <div className="footerSpacer" />
+            </div>
+
             <div className="portimgborder">
                 <a href="https://obscure-wave-51950.herokuapp.com/">
                     <img src={News} className="portimg" alt="NewsToMe" />
                 </a>
+            </div>
+
+            <div className="portimgborder">
+                <div className="footerSpacer" />
             </div>
 
             <div className="portimgborder">
@@ -32,6 +41,10 @@ export default props =>
             </div>
 
             <div className="portimgborder">
+                <div className="footerSpacer" />
+            </div>
+
+            <div className="portimgborder">
                 <div className="portimgborder2">
                     <a href="http://secure-temple-86303.herokuapp.com/">
                         <img src={GiJoe} className="portimg" alt="G.I. Joe" />
@@ -40,11 +53,19 @@ export default props =>
             </div>
 
             <div className="portimgborder">
+                <div className="footerSpacer" />
+            </div>
+
+            <div className="portimgborder">
                 <div className="portimgborder2">
                     <a href="https://github.com/Kpressley86/liri-node-app">
                         <img src={Liri} className="portimg" alt="LiriBot" />
                     </a>
                 </div>
+            </div>
+
+            <div className="portimgborder">
+                <div className="footerSpacer" />
             </div>
 
             <div className="portimgborder">
