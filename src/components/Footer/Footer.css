@@ -4,7 +4,6 @@
 
 .Footer {
     bottom: 0 !important;
-    display: flex;
     overflow: hidden;
     align-items: stretch;
     position: fixed;

@@ -4,8 +4,8 @@ import './App.css';
 import { Switch, Route } from "react-router-dom";
 
 import Header from './components/Header/Header';
-import Footer from './components/Footer/TestFooter';
-import Content from './components/Content/Content'
+import Footer from './components/Footer/Footer';
+// import Content from './components/Content/Content';
 
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
@@ -18,7 +18,8 @@ function App() {
 
       <Header />
 
-      <Content/>
+      {/* <Content/> */}
+
         <Switch>
           <Route path="/3D Models" component={ThreeDModels}></Route>
           <Route path="/about" component={About}></Route>
